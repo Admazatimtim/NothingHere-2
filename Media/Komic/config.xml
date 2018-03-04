@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<Config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ImageExts>jpg;jpeg;gif;png;bmp;tif;jp2</ImageExts>
+  <ArchiveExts>rar;zip;cbr;cbz;7z;tar;gz;bz2</ArchiveExts>
+  <SharpenParamsL1>1.0;0.7;0.5;0.1</SharpenParamsL1>
+  <SharpenParamsL2>1.0;1.0;1.0;0.2</SharpenParamsL2>
+  <SharpenParamsL3>2.0;1.5;1.5;0.4</SharpenParamsL3>
+  <TrimParams>0.7;0.003;0.02;0.3;0.2;0.2;0.02;0.02</TrimParams>
+  <LevelParams>0.01;0.96;1.0</LevelParams>
+  <GammaParams>0.6</GammaParams>
+  <RenameRules>comic,;[\[\]]+,.;[\.]+,.</RenameRules>
+  <PdfRenderCmd>components\pdfdraw.exe -o "{output}\%04d.png" -r144 "{input}"</PdfRenderCmd>
+  <DualPageAspectRatio>1.1</DualPageAspectRatio>
+  <ResizeGamma>-1</ResizeGamma>
+  <PageOrder>R2L</PageOrder>
+  <SharpenLevel>L1</SharpenLevel>
+  <ArchiveFormat>Pdf</ArchiveFormat>
+  <PdfEngine>Image</PdfEngine>
+  <ZoomMode>Fit</ZoomMode>
+  <ScreenType>Preset</ScreenType>
+  <CustomSS>
+    <Width>600</Width>
+    <Height>800</Height>
+    <Bits>4</Bits>
+  </CustomSS>
+  <ScreenPresetList>
+    <ScreenSpec>
+      <Width>600</Width>
+      <Height>800</Height>
+      <Bits>4</Bits>
+      <Name>Kindle全屏</Name>
+      <Comment>在原生系统每次打开文件要设置Enable Fullscreen</Comment>
+    </ScreenSpec>
+    <ScreenSpec>
+      <Width>800</Width>
+      <Height>560</Height>
+      <Bits>4</Bits>
+      <Name>Kindle横版</Name>
+      <Comment>针对原生系统，适用于大部分漫画，观看时需设置Kindle为横版模式</Comment>
+    </ScreenSpec>
+    <ScreenSpec>
+      <Width>600</Width>
+      <Height>760</Height>
+      <Bits>4</Bits>
+      <Name>Kindle竖版</Name>
+      <Comment>针对原生系统，适用于大部分文字书籍</Comment>
+    </ScreenSpec>
+    <ScreenSpec>
+      <Width>560</Width>
+      <Height>735</Height>
+      <Bits>4</Bits>
+      <Name>KindlePDF</Name>
+      <Comment>针对原生系统，多看系统请使用全屏分辨率。</Comment>
+    </ScreenSpec>
+    <ScreenSpec>
+      <Width>591</Width>
+      <Height>787</Height>
+      <Bits>4</Bits>
+      <Name>K4多看PDF</Name>
+      <Comment />
+    </ScreenSpec>
+    <ScreenSpec>
+      <Width>824</Width>
+      <Height>1200</Height>
+      <Bits>4</Bits>
+      <Name>DX全屏</Name>
+      <Comment />
+    </ScreenSpec>
+    <ScreenSpec>
+      <Width>584</Width>
+      <Height>754</Height>
+      <Bits>4</Bits>
+      <Name>T1竖版PDF</Name>
+      <Comment />
+    </ScreenSpec>
+    <ScreenSpec>
+      <Width>784</Width>
+      <Height>555</Height>
+      <Bits>4</Bits>
+      <Name>T1横版PDF</Name>
+      <Comment />
+    </ScreenSpec>
+    <ScreenSpec>
+      <Width>768</Width>
+      <Height>1024</Height>
+      <Bits>4</Bits>
+      <Name>StoryHD全屏</Name>
+      <Comment />
+    </ScreenSpec>
+  </ScreenPresetList>
+  <SelectedScreenPreset>0</SelectedScreenPreset>
+  <SrcFolder>F:\Downloads\180102\[藤丸] ラブミーテンダー [中国翻訳]</SrcFolder>
+  <DstFolder>F:\Downloads\HCG\Novel\mage</DstFolder>
+  <ArchiveTempFolder>_unpack</ArchiveTempFolder>
+  <OutputExt>.png</OutputExt>
+  <DualPageSuffix>_1;_2</DualPageSuffix>
+  <IsShowConfig>true</IsShowConfig>
+  <IsOverwrite>false</IsOverwrite>
+  <IsRemoveTemp>true</IsRemoveTemp>
+  <IsAutoLevels>true</IsAutoLevels>
+  <IsShowDebugInfo>false</IsShowDebugInfo>
+  <IsLoadArchive>true</IsLoadArchive>
+  <IsLoadPdf>true</IsLoadPdf>
+  <IsShowMessageBox>true</IsShowMessageBox>
+  <IsDither>true</IsDither>
+  <IsFlattenArchive>false</IsFlattenArchive>
+  <IsRename>true</IsRename>
+  <IsSharpen>false</IsSharpen>
+  <IsAutoSplit>true</IsAutoSplit>
+  <IsAutoTrim>true</IsAutoTrim>
+  <IsSaveArchive>true</IsSaveArchive>
+  <IsDespeckle>true</IsDespeckle>
+  <IsDeskew>false</IsDeskew>
+  <IsRotate180>false</IsRotate180>
+</Config>
