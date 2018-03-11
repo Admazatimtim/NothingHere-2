@@ -5,17 +5,23 @@ using UnityEngine;
 public class testCallStack : MonoBehaviour {
 	
     private float _mCount = 0;
+    private string _message = "";
     
 	void Update () {
         _mCount += 1 * Time.deltaTime;
-        if (_mCount >= 30) {
+        if (_mCount >= 5) {
             FunctionA();
         }  
     }
 
     void FunctionA() {
-        _mCount = 0;
-        FunctionB();
+        if (_mCount < 10)
+        {
+            _message = "";
+        }
+        else {
+            FunctionB();
+        }
     }
 
     void FunctionB() {
@@ -24,6 +30,11 @@ public class testCallStack : MonoBehaviour {
     }
 
     void FunctionC(string message) {
-        GUILayout.TextArea("数字是："+message, 200);
+        _message = "数字是：" + message;
+        _mCount = 0;
+    }
+
+    void OnGUI() {
+        GUILayout.TextArea(_message, 200);
     }
 }
