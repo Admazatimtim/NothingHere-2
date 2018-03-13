@@ -13,10 +13,9 @@ Adobe PS/AI/LR
 > 看评论、听电台
 foobar2000 v1.3.17 	Asion汉化版
 > 本地听歌
-> http://www.foobar2000.org/
-> http://blog.sina.com.cn/go2spa
+> [官网](http://www.foobar2000.org/) [汉化作者博客](http://blog.sina.com.cn/go2spa)
 Adobe Au
-> 主要用于录音剪辑去噪
+> 个人主要用于录音剪辑去噪
 FL Studio 12
 > 编曲
 MorphVOX Pro
@@ -33,7 +32,7 @@ Sony Vegas Pro 13.0
 ### 格式工具
 小丸工具箱
 > 视频高效压制
-> https://maruko.appinn.me/
+> [官网](https://maruko.appinn.me/)
 格式工厂
 > 懒
 Komic

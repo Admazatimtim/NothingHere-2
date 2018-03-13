@@ -21,6 +21,7 @@ PyCharm Community Edition 2017.1.1
 ### Game Maker
 Unity5.5.2f1
 > 项目卡壳半年，今年一定要完成了
+> shader-forge插件：用于shader的可视化编辑  [官网](http://acegikmo.com/shaderforge/)
 Game Maker Studio 2
 > 很感兴趣，可惜教程太少，待Unity的项目写完，再尝试
 雪月WE1.31.7
@@ -43,4 +44,4 @@ EverEdit
 > 比Notepad++好用，实际用于编写魔兽地图的jass脚本，但是jass语法太反人类，已弃坑
 火绒安全软件
 > 屏蔽各种弹窗也是营造良好业余开发环境的必要工序
-> https://www.huorong.cn/
+> [官网](https://www.huorong.cn/)
